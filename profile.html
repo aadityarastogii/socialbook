@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page-Social book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+   <nav>
+       <div class="nav-left">
+        <a href="index.html">
+        <img src="logo.png" class="logo">
+        </a>
+        <ul>
+            <li><img src="notification.png"></li>
+            <li><img src="inbox.png"></li>
+            <li><img src="video.png"></li>
+        </ul>
+    </div>
+
+        <div class="nav-right">
+        <div class="search-box">
+            <img src="search.png">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="mypic.jpeg">
+        </div>
+
+        </div>
+        <!-------settings menu------->
+         <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="mypic.jpeg" alt="">
+                    <div>
+                        <p>Aditya Rastogi</p>
+                       <a href="profile.html">See your profile</a>
+        
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                       <a href="#">Help us to improve the new design</a>
+        
+                    </div>
+                </div>
+                <hr>
+                <div class="stting-links">
+                    <img src="setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & privacy <img src="arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="stting-links">
+                    <img src="help.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="stting-links">
+                    <img src="display.png" alt="" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="stting-links">
+                    <img src="logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout <img src="arrow.png" width="10px" alt=""></a>
+                </div>
+
+
+
+            </div>
+
+   </nav>
+   <!------profile page------->
+   <div class="profile-container">
+    <img src="cover.png" alt="" class="cover-img">
+<div class="profile-details">
+    <div class="profile-detail-left">
+        <div class="profile-detail-row">
+            <img src="mypic.jpeg" alt="" class="pd-img">
+            <div>
+                <h3>Aditya Rastogi</h3>
+                <p>150 Friends - 20 mutual</p>
+                <img src="member-1.png" alt="">
+                <img src="member-2.png" alt="">
+                <img src="member-3.png" alt="">
+                <img src="member-4.png" alt="">
+                
+            </div>
+        </div>
+    </div>
+    <div class="profile-detail-right">
+         <button type="button"><img src="add-friends.png" alt=""> Friend</button>
+         <button type="button"><img src="message.png" alt=""> Message</button>
+         <br>
+         <a href=""><img src="more.png" alt=""></a>
+
+
+    </div>
+</div>
+
+
+<div class="profile-info">
+    <div class="info-col">
+     <div class="profile-intro">
+        <h3>Intro</h3>
+        <p class="intro-text">Believe in youself and you can do unbelievable things. <img src="feeling.png" alt=""></p>
+        <hr>
+        <ul>
+            <li> <img src="profile-job.png" alt="">Director at IndiaTV ltd</li>
+            <li> <img src="profile-study.png" alt="">Studied at SR university</li>
+            <li><img src="profile-study.png" alt="">went to City convent school</li>
+            <li><img src="profile-home.png" alt="">lives in lucknow,India</li>
+            <li> <img src="profile-location.png" alt="">From lucknow,India</li>
+        </ul>
+     </div>
+       <div class="profile-intro">
+        <div class="title-box">
+            <h3>Photos</h3>
+            <a href="">All Photos</a>
+        </div>
+       
+        <div class="photo-box">
+            <div><img src="photo1.png" alt=""></div>
+            <div><img src="photo2.png" alt=""></div>
+            <div><img src="photo3.png" alt=""></div>
+            <div><img src="photo4.png" alt=""></div>
+            <div><img src="photo5.png" alt=""></div>
+            <div><img src="photo6.png" alt=""></div>
+        </div>
+       </div>
+      
+
+
+    </div>
+    <div class="post-col">
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="mypic.jpeg" alt="">
+                <div>
+                    <p>Aditya Rastogi</p>
+                    <small>Public <i class="fa-solid fa-angle-down"></i></small>
+    
+                </div>
+            </div>
+        
+             <div class="post-input-container">
+                <textarea  rows="3" placeholder="what's on your mind,Aditya?"></textarea>
+              <div class="add-post-links">
+                <a href="#"><img src="live-video.png" alt="">Live vedio
+                </a>
+                <a href="#"><img src="photo.png" alt="">photo/vedio
+                </a>
+                <a href="#"><img src="feeling.png" alt="">Feeling/Activity
+                </a>
+    
+              </div>
+    
+    
+             </div>
+    
+    
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="mypic.jpeg" alt="">
+                    <div>
+                        <p>Aditya Rastogi</p>
+                       <span>October 26 2023,12:02 pm</span>
+        
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+           
+            <p class="post-text">Connect with me on linkedin. <a href="www.linkedin.com/in/aditya-rastogi-7813a0259">#LinkedIn</a></p>
+            <img src="feed-image-1.png" alt="" class="post-img">
+            <div class="post-row">
+                <div class="activity-icon">
+                   <div>
+                    <img src="like-blue.png" alt="">120
+                   </div>
+                   <div>
+                    <img src="comments.png" alt="">45
+                   </div>
+                   <div>
+                    <img src="share.png" alt="">25
+                   </div>
+                </div>
+                <div class="post-profile-icon">
+                 <img src="mypic.jpeg" alt=""> <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="mypic.jpeg" alt="">
+                    <div>
+                        <p>Aditya Rastogi</p>
+                       <span>October 27 2023,12:02 pm</span>
+        
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+           
+            <p class="post-text">Connect with me on linkedin. <a href="adityarastogi_03">#Instagram</a></p>
+            <img src="feed-image-2.png" alt="" class="post-img">
+            <div class="post-row">
+                <div class="activity-icon">
+                   <div>
+                    <img src="like-blue.png" alt="">150
+                   </div>
+                   <div>
+                    <img src="comments.png" alt="">50
+                   </div>
+                   <div>
+                    <img src="share.png" alt="">29
+                   </div>
+                </div>
+                <div class="post-profile-icon">
+                 <img src="mypic.jpeg" alt=""> <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="mypic.jpeg" alt="">
+                    <div>
+                        <p>Aditya Rastogi</p>
+                       <span>October 28 2023,12:02 pm</span>
+        
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+           
+            <p class="post-text">Be fearless.</a></p>
+            <img src="aditya.jpeg" alt="" class="post-img">
+            <div class="post-row">
+                <div class="activity-icon">
+                   <div>
+                    <img src="like-blue.png" alt="">200
+                   </div>
+                   <div>
+                    <img src="comments.png" alt="">60
+                   </div>
+                   <div>
+                    <img src="share.png" alt="">80
+                   </div>
+                </div>
+                <div class="post-profile-icon">
+                 <img src="mypic.jpeg" alt=""> <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="mypic.jpeg" alt="">
+                    <div>
+                        <p>Aditya Rastogi</p>
+                       <span>October 26 2023,12:02 pm</span>
+        
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+           
+            <p class="post-text">If nothing goes right,go left.</p>
+            <img src="aditya2.jpeg" alt="" class="post-img">
+            <div class="post-row">
+                <div class="activity-icon">
+                   <div>
+                    <img src="like-blue.png" alt="">160
+                   </div>
+                   <div>
+                    <img src="comments.png" alt="">55
+                   </div>
+                   <div>
+                    <img src="share.png" alt="">42
+                   </div>
+                </div>
+                <div class="post-profile-icon">
+                 <img src="mypic.jpeg" alt=""> <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+           </div>
+
+    </div>
+</div>
+
+   </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
